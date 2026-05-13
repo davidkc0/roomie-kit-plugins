@@ -1,0 +1,40 @@
+{
+  "name": "roomie-kit",
+  "version": "0.1.2",
+  "description": "Set up, customize, and diagnose Roomie Kit apps with Roomie Kit Cloud.",
+  "author": {
+    "name": "Roomie Kit",
+    "url": "https://roomiekit.io"
+  },
+  "homepage": "https://roomiekit.io",
+  "repository": "https://github.com/davidkc0/roomie-kit-plugins",
+  "license": "MIT",
+  "keywords": [
+    "roomie-kit",
+    "virtual-rooms",
+    "livestreaming",
+    "video-chat",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Roomie Kit",
+    "developerName": "Roomie Kit",
+    "shortDescription": "Set up and customize Roomie Kit with paid Cloud access.",
+    "longDescription": "Roomie Kit connects Codex to Roomie Kit Cloud so paid customers can bootstrap, customize, diagnose, and prepare Roomie Kit apps. Customer Supabase, Vercel, Agora, and asset secrets stay local.",
+    "category": "Coding",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://roomiekit.io",
+    "privacyPolicyURL": "https://roomiekit.io/privacy",
+    "termsOfServiceURL": "https://roomiekit.io/terms",
+    "brandColor": "#7B2FFF",
+    "defaultPrompt": [
+      "Use Roomie Kit to log in, then help set up and customize this app.",
+      "Use Roomie Kit to check my deployment setup and point me to the right docs."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

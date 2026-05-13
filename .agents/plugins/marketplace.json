@@ -1,0 +1,20 @@
+{
+  "name": "roomie-kit",
+  "interface": {
+    "displayName": "Roomie Kit"
+  },
+  "plugins": [
+    {
+      "name": "roomie-kit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-roomie-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    }
+  ]
+}

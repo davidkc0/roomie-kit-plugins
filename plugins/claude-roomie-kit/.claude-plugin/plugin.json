@@ -1,0 +1,21 @@
+{
+  "name": "roomie-kit",
+  "version": "0.1.2",
+  "description": "Set up, customize, and diagnose Roomie Kit apps with Roomie Kit Cloud.",
+  "author": {
+    "name": "Roomie Kit",
+    "url": "https://roomiekit.io"
+  },
+  "homepage": "https://roomiekit.io",
+  "license": "MIT",
+  "repository": "https://github.com/davidkc0/roomie-kit-plugins",
+  "keywords": [
+    "roomie-kit",
+    "virtual-rooms",
+    "livestreaming",
+    "video-chat",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

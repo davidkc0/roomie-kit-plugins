@@ -1,0 +1,33 @@
+{
+  "name": "roomie-kit",
+  "owner": {
+    "name": "Roomie Kit",
+    "email": "support@roomiekit.io"
+  },
+  "description": "Roomie Kit Cloud setup, customization, and diagnostics for Claude Code.",
+  "version": "0.1.2",
+  "plugins": [
+    {
+      "name": "roomie-kit",
+      "source": "./plugins/claude-roomie-kit",
+      "description": "Set up, customize, and diagnose Roomie Kit apps with Roomie Kit Cloud.",
+      "version": "0.1.2",
+      "author": {
+        "name": "Roomie Kit",
+        "email": "support@roomiekit.io"
+      },
+      "homepage": "https://roomiekit.io",
+      "repository": "https://github.com/davidkc0/roomie-kit-plugins",
+      "license": "MIT",
+      "category": "Coding",
+      "tags": [
+        "roomie-kit",
+        "supabase",
+        "vercel",
+        "agora",
+        "livestreaming",
+        "video-chat"
+      ]
+    }
+  ]
+}
