@@ -55,3 +55,4 @@ npx roomie-kit-host deploy --execute --resume
 ## Support
 
 Email support@roomiekit.io or visit https://docs.roomiekit.io.
+# roomie-kit-plugins
