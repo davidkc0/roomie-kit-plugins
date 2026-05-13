@@ -5,13 +5,13 @@
     "email": "support@roomiekit.io"
   },
   "description": "Roomie Kit Cloud setup, customization, and diagnostics for Claude Code.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "plugins": [
     {
       "name": "roomie-kit",
       "source": "./plugins/claude-roomie-kit",
       "description": "Set up, customize, and diagnose Roomie Kit apps with Roomie Kit Cloud.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "Roomie Kit",
         "email": "support@roomiekit.io"
