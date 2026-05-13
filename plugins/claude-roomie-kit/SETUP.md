@@ -1,12 +1,24 @@
 # Roomie Kit Plugin Setup
 
-Use this guide when a user installs the Roomie Kit Claude Code plugin.
+Use this guide when helping someone with the Roomie Kit Claude Code plugin.
 
-1. Confirm Node.js 20 or newer is available.
-2. Ask the user to run `npx roomie-kit-host login`, or call the `roomie_login_start` MCP tool if available.
-3. Have the user approve the browser activation code at roomiekit.io.
-4. Run `roomie_whoami` to confirm their paid Roomie Kit Cloud account.
-5. For a new app, use `roomie_bootstrap_project`, then `roomie_customize_app`, then `roomie_doctor`.
-6. For deploy execution, tell the user to run `npx roomie-kit-host deploy --execute --resume` until plugin deploy execution ships.
+## Recommended Flow
 
-Security note: installing the plugin is public. Managed tools require Roomie Kit Cloud login. Customer Supabase, Vercel, Agora, and asset secrets stay local and are not sent to Roomie Kit Cloud.
+1. Start with `roomie_login_start` if local auth is missing.
+2. Run `roomie_whoami` to confirm the active Roomie Kit Cloud account.
+3. For a new app, run `roomie_bootstrap_project`.
+4. Run `roomie_customize_app` for app name, theme, colors, and local override folders.
+5. Run `roomie_doctor` before deploy work.
+6. Run `roomie_health_check` after the user has a deployed URL.
+
+Deploy execution is currently handled by the CLI:
+
+~~~bash
+npx roomie-kit-host deploy --execute --resume
+~~~
+
+## Notes
+
+- Do not ask users to paste Supabase, Vercel, or Agora secrets into chat.
+- Customer provider secrets should stay in `.roomie-host/env.local` or their shell.
+- Managed tools require Roomie Kit Cloud login even though the plugin itself is public.
